@@ -10,3 +10,5 @@
 -it last to sort the lists in the frontend but it works in the backend
 
 -it implements logical and physical deletion, therefore you can recover the items 
+
+please install npm in the folder "frontend" with npm install
