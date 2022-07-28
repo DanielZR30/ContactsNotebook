@@ -1,0 +1,171 @@
+#root{
+  display: block;
+  height: 100%;
+}
+html, body{
+  height: 100%;
+  
+}
+
+
+
+/**** general *****/
+.div-header{
+  display: block;
+  height: 5%;
+}
+
+
+
+.header{
+  display: flex;
+  position: relative;
+  top: 0 ;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(36, 103, 247);
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container{
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container{
+  display: block;
+  justify-content: center;
+  height: 100%;
+  padding: 25px 0;
+}
+
+
+.div-footer{
+  display: block;
+  height: 5%;
+  color: rgb(36, 103, 247);
+}
+
+.footer{
+  display: flex;
+  position: relative;
+  bottom: 0 ;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(36, 103, 247);
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.text-footer{
+  color: #fff;
+  justify-content: center;
+}
+/*****table*****/
+.page-title{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.btn-primary{
+  padding-bottom: 25px;
+}
+
+.table-container{
+  height: 80%;
+}
+
+/*****Form********/
+.form-container, .contact-container{
+  width: fit-content;
+  height: auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  border-color:rgb(63, 63, 63);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.729);
+
+}
+
+/******** Contact *******/
+.contact-img{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.contact-img >img{
+  width: 100%;
+}
+
+.btn{
+  width: 100px ;
+  margin: 5px;
+}
+
+
+.contact-names{
+  margin-bottom: 25px;
+}
+
+/******Alerts******/
+.swal-text {
+  margin: 22px;
+  text-align: center;
+}
+
+.go-back-btn{
+  display: flex;
+  justify-content: center;
+
+}
+.btn-home{
+width: 100px;
+}
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
