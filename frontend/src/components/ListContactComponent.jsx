@@ -108,7 +108,7 @@ class ListContactComponent extends Component {
                 <h2 className="page-title">{(!this.state.show)?"Deleted Contacts ":"Contacts"}</h2>
                 <div className="row">
                     <button className={(!this.state.show)?"btn btn-danger":"btn btn-primary" } onClick={this.btnContact}>
-                        {(!this.state.show)?"Delete All":"Add contact" }</button>
+                        {(this.state.show)?"Delete All":"Add contact" }</button>
                     <button className="btn btn-primary" onClick={this.changeShow}>
                         {(this.state.show)?"Deleted":"Contacts"}</button>
                 </div>
